@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Terem</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500&display=swap&subset=cyrillic" rel="stylesheet">
+<body>
+<div class="wrapper">
+    <div class='heading'>
+        <h1>РЕГИСТРАЦИЯ СЕРТИФИКАТА «ДОМ В ПОДАРОК»</h1>
+    </div>
+    <div class="wrapper-form">
+        <img src="./img/header_picture.jpg">
+        <form class="form-reg">
+            <h1 id='form_header'>РЕГИСТРАЦИЯ СЕТРИФИКАТА</h1>
+            <p>Для регистрации сертификата - введите код сертификата и ваши контактные данные.</p>
+            <input id='first-input' required type="text" placeholder="Код сертификата">
+            <input type="text" placeholder="Ваше имя">
+            <input type="tel" required placeholder="Ваш телефон">
+            <input id="last-input" type="email" placeholder="Ваш е-мейл">
+            <button type="submit">ОТПРАВИТЬ ЗАЯВКУ НА УЧАСТИЕ В АКЦИИ</button>
+            <p id="politics">Отправляя форму Вы соглашаетесь с <a href="#">Политикой обработки данных</a></p>
+        </form>
+    </div>
+    <div class="tab">
+        <details>
+            <summary>
+                <label class="tab-title">Что дает сертификат?
+                    <img src="./img/Arrow-down.svg.png" alt="down">
+                </label>
+            </summary>
+            <div class="content">
+                <p>Сертификат даёт право участвовать в акции «Дом в подарок».
+                    Номер сертификата является вашим уникальным номером участника.
+                    Не забудьте его зарегистрировать на нашем сайте и взять с собой на розыгрыш главного приза 16
+                    декабря 2018 года. Владелец сертификата может принимать участие в розыгрыше только при
+                    наличии акта приёмки-передачи строения,
+                    подтверждающего окончание строительства.</p>
+            </div>
+        </details>
+    </div>
+    <div class="tab">
+        <details>
+            <summary>
+                <label class="tab-title">Где получить сертификат?<img src="./img/Arrow-down.svg.png" alt="down">
+                </label>
+            </summary>
+            <div class="content"><p>Сертификат выдаётся всем клиента строительной компании «Теремъ» во время
+                подписания договора на строительство дома или бани на территории
+                выставочного комплекса компании по адресу: г. Москва, ул. Зеленодольская, вл. 42.
+                Сертификаты выдаются в период с 6 по 19 сентября 2018 года включительно..</p>
+            </div>
+        </details>
+    </div>
+    <form class="questions">
+        <p id='quest_header'>ЕСЛИ ОСТАЛИСЬ ВОПРОСЫ ПО УЧАСТИЮ В АКЦИИ</p>
+        <p>Оставьте телефонный номер и наши специалисты свяжутся с Вами через 30 секунд.</p>
+        <div class="questions-form">
+            <input type="text" placeholder="Ваше имя">
+            <input id="input-tel" type="tel" required placeholder="+7( _ _ _ ) _ _ _   _ _  _ _"
+                   pattern="\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}">
+            <button type="submit">ЗАЯВКА НА КОНСУЛЬТАЦИЮ</button>
+        </div>
+        <div class="politics-checkbox">
+            <input type="checkbox">
+            <p>Я принимаю условия Политики обработки данных</p>
+        </div>
+    </form>
+</div>
+</div>
+</body>
+</html>

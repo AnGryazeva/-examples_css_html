@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.heading {
+    width: 100%;
+    margin-top: 27px;
+    height: 47px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.heading h1 {
+    font-stretch: initial;
+    font-size: 30px;
+    font-family: Oswald, sans-serif;
+    font-weight: normal;
+}
+
+.wrapper {
+    width: 94%;
+    max-width: 1052px;
+    min-width: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper img {
+    width: 100%;
+}
+
+.wrapper-form {
+    height: 1036px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(229, 229, 229);
+
+}
+
+.form-reg {
+    width: 455px;
+    padding-top: 18px;
+    margin: 0 auto 15px auto;
+}
+
+.form-reg input {
+    width: 99%;
+    height: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px rgb(194, 190, 199) solid;
+    border-radius: 2px;
+    margin-bottom: 22px;
+    padding-left: 11px;
+    padding-top: 5px;
+}
+
+#last-input {
+    margin-top: 3px;
+    margin-bottom: 52px;
+}
+
+#first-input {
+    margin-top: 36px;
+}
+
+.form-reg button {
+    width: 446px;
+    height: 45px;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background: rgb(192, 0, 0);
+    color: white;
+    padding: 3px 0px 4px 0px;
+    margin-bottom: 14px;
+}
+
+.form-reg a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+#politics {
+    font-size: 14px;
+    color: black;
+    padding-bottom: 40px;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(194, 190, 199);
+}
+
+#form_header {
+    margin-top: 22px;
+    font-size: 25px;
+    color: rgb(192, 0, 0);
+    font-family: Oswald, sans-serif;
+    margin-bottom: 14px;
+}
+
+details summary {
+    outline: none;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary:before {
+    content: '';
+}
+
+details[open] .tab-title img {
+    transform: rotate(-180deg);
+}
+
+.tab {
+    background: rgb(229, 229, 229);
+    margin-top: 20px;
+    padding-top: 12px;
+}
+
+.tab label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab img {
+    width: 18px;
+    height: 13px;
+    display: inline;
+}
+
+.tab input, .tab-content {
+    display: none;
+}
+
+.content {
+    padding: 5px 10px 5px 30px;
+    background: white;
+    border: 1px solid rgb(229, 229, 229);
+}
+
+.tab-title {
+    font-size: 16px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 1px 15px 10px 34px;
+}
+
+.questions {
+    padding-left: 34px;
+    padding-top: 61px;
+
+}
+
+#quest_header {
+    font-size: 26px;
+    font-family: Oswald, sans-serif;
+    padding-bottom: 12px;
+}
+
+.questions-form {
+    display: flex;
+    padding-top: 53px;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.questions input {
+    width: 449px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px rgb(194, 190, 199) solid;
+    border-radius: 2px;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.questions button {
+    width: 315px;
+    height: 47px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border: none;
+    background: rgb(192, 0, 0);
+    color: white;
+    padding-left: 11px;
+}
+
+#input-tel {
+    width: 227px;
+}
+
+.politics-checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.politics-checkbox input {
+    width: 20px;
+    margin-top: -17px;
+}
